@@ -9,7 +9,7 @@ import pandas as pd
 def video(datef,Key,Pages):
     """
     datef : today, week, month, 3month, all
-    Key : for example, Japanese, Chinese, or anything what you want.
+    Key : anything what you want.
     Pages : how many pages do you want to scrape?
     """
     Data = []
