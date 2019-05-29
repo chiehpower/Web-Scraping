@@ -1,8 +1,15 @@
 # Web-Scraping
 Here is my scraping file.
-I used the popular lib of scraping such as beautifulsoup, requests, and so on.
+I used the popular library of scraping such as beautifulsoup, requests, and so on.
 In particular, I also used the pyspark to process the data, becasue pyspark is very useful so I highly suggest that you can install the pyspark.
 Of course, you do not necessarily need to use pyspark. Is is just because I am familiar with spark.
+
+# Installation:
+If you didnt install the library of scraping for beautifulsoup, type the command below.
+`pip install beautifulsoup4` or `pip3 install beautifulsoup4`
+
+If you want to use the `lxml` parser of beautifulsoup, type the command below.
+`pip install lxml` or `pip3 install lxml`
 
 ### Introduction:
 - [Xvideo.py](./Xvideo.py) 
