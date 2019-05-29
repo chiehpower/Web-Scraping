@@ -1,7 +1,7 @@
 # Web-Scraping
 Here is my scraping file.
 I used the popular lib of scraping such as beautifulsoup, requests, and so on.
-In particular, I also used the pyspark to process the data, and pyspark is very useful so I highly suggest that you can install the pyspark.
+In particular, I also used the pyspark to process the data, becasue pyspark is very useful so I highly suggest that you can install the pyspark.
 Of course, you do not necessarily need to use pyspark. Is is just because I am familiar with spark.
 
 ### Introduction:
