@@ -18,7 +18,10 @@ If you want to use the `lxml` parser of beautifulsoup, type the command below.
     In this file, There are two purposes that one is how to requests the picture from web-page; another one is how to save the binary picture after you get the content. In addition, I also compared two kinds of different methods that first I used the content of requests to save the picture, and second I used the shutil.copyfileobj to save the pic.
     We can see the result of shutil which cannot get the picture from first web-page, but content can get successfully. But if our url has the name of jpg in the end, then both can get the picture successfully.
     So I would say that using content method is more flexible here.
-
+- [Questionnaire.ipynb](./Questionnaire.ipynb)
+    This file can automatically reply a questionnaire and repeat many times what you set. Just just need to modify the url and all of answers. Mainly it have many kinds of functions in splinter such as `find_by_tag`... you can replace the `tag` with `css, xpath, tag, name, id, value, text`. [Check here](https://splinter.readthedocs.io/en/latest/finding.html)
+    By the way, time.sleep don't set too small value that it will easily get fail.
+    
 *Adult Area*
 - 🔞[Xvideo.py](./Xvideo.py) 
     We can use web-scrapy to list all the videos for each key in order from high to low views.
