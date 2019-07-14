@@ -21,7 +21,9 @@ If you want to use the `lxml` parser of beautifulsoup, type the command below.
 - [Questionnaire.ipynb](./Questionnaire.ipynb)
     This file can automatically reply a questionnaire and repeat many times what you set. Just just need to modify the url and all of answers. Mainly it have many kinds of functions in splinter such as `find_by_tag`... you can replace the `tag` with `css, xpath, tag, name, id, value, text`. [Check here](https://splinter.readthedocs.io/en/latest/finding.html)
     By the way, time.sleep don't set too small value that it will easily get fail.
-    
+- [Dcard.py](./Dcard.py)
+    We can use web-scrapy to grab all of `food pictures` of post. In particualr, we can see this website of Dcard without next page button, so we cannot use the previous method to keep scraping. My code and instructions are reference from [Day-4 Python爬蟲實作篇(Dcard)-圖片!!!](https://ithelp.ithome.com.tw/articles/10203216).
+
 *Adult Area*
 - 🔞[Xvideo.py](./Xvideo.py) 
     We can use web-scrapy to list all the videos for each key in order from high to low views.
