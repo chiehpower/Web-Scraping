@@ -24,14 +24,6 @@ If you want to use the `lxml` parser of beautifulsoup, type the command below.
 - [Dcard.py](./Dcard.py)
     We can use web-scrapy to grab all of `food pictures` of post. In particualr, we can see this website of Dcard without next page button, so we cannot use the previous method to keep scraping. My code and instructions are reference from [Day-4 Python爬蟲實作篇(Dcard)-圖片!!!](https://ithelp.ithome.com.tw/articles/10203216).
 
-*Adult Area*
-- 🔞[Xvideo.py](./Xvideo.py) 
-    We can use web-scrapy to list all the videos for each key in order from high to low views.
-
-- 🔞[X_tages.py](./X_tages.py) 
-    We can use web-scrapy to list all the tags in order from high to low views.
-
-
 ### Notice:
 - For pyspark, `Distinct()` 
     - Cannot process this case： `[ [ ], [ ], ... ,[ ]]`
